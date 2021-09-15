@@ -8,3 +8,7 @@
 * __GitHub:__ [MatTsyb](https://github.com/MatTsyb)
 
 --- 
+
+## About Me
+
+I am a student, studying at GrSU of Yanka Kupala. I'm an excellent team worker and willing to learn new skills.
