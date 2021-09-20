@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Matsvei Tsybulnikau CV</title>
+</head>
+<body>
+    <div class="container">
+        <aside class="aside">
+            <section class="education">
+                <h2>Education</h2>
+                <hr class="solid">
+                <ul class="education_list">
+                    Grodno State University of Yanka Kupala, Physics and Technology Faculty
+                </ul>
+            </section>
+            <section class="skills">
+                <h2>Skills</h2>
+                <hr class="solid">
+                <ul class="skills_list">
+                    <li> C++, C#, C </li>
+                    <li> Java </li>
+                    <li> JavaScript </li>
+                    <li> HTML </li>
+                    <li> CSS (Bootstrap) </li>
+                    <li> Visual Basic </li>
+                    <li> Git </li>
+                </ul>
+            </section>
+            <section class="contacts">
+                <h2>Contacts</h2>
+                <hr class="solid">
+                <ul class="contacts_list">
+                    <li> <a href="tel:+375292703154"> +375 (29) 270-31-54 </li>
+                    <li> <a href="mailto:matvey.grodna@gmail.com">Gmail</a></li>
+                    <li> <a href="https://github.com/MatTsyb"> GitHub </a></li>
+                    <li> <a href="https://t.me/mattsyb"> Telegram </a></li>
+                    <li> <a href="https://vk.com/mattsyb"> VKontakte </a></li>
+                    <li> Discord Tag: Funnyscore#7448 </li>
+                </ul>
+            </section>
+            <footer class="footer">
+                
+            </footer>
+        </aside>
+        <main class="main">
+            <header class="header">
+                <h1> Matsvei Tsybulnikau </h1> <h3> Grodno, Belarus</h3>
+            </header>
+            <div class="info">
+                <div class="abme">
+                    <img class="avatar" src="https://avatars.githubusercontent.com/u/80974209?v=4" alt="Avatar"></img>
+                    <div class="1">
+                    <article class="about_me">
+                        <h2> About Me </h2>
+                        <hr class="solid">
+                        <p> I'm a student, studying at GrSU of Yanka Kupala. I'm a 4th year student and my goal is to get an engineering degree and gain knowledge in the field of front-end development. I'm an excellent team worker and willing to learn new skills. </p>
+                    </article>
+                </div>
+                </div>
+                <article class="code_ex">
+                    <h2> Code Example </h2>
+                    <hr class="solid">
+                    <pre class="code"><code>
+function getParticipants(handshakes){
+
+    let kolvoHandshakes = [];
+    kolvoHandshakes[0] = 0;
+    kolvoHandshakes[1] = 0;
+    
+    if(handshakes == 0){
+        return 1;
+    }
+    
+    for(let i = 2; ;i++){
+        
+        kolvoHandshakes[i] = kolvoHandshakes[i-1] + (i-1);
+        
+        if(kolvoHandshakes[i] >= handshakes){
+            return i;
+        }
+    }
+}                   </code></pre>
+                </article>
+                <article class="lang">
+                    <h2> Languages </h2>
+                    <ul>
+                        <li> English: B1 </li>
+                        <li> Russian: native </li>
+                        <li> Belarusian: native </li>
+                    </ul>
+                </article>
+            </div>
+            <footer class="footer">
+                <a href="https://rs.school/js/"><img class="rs_school_js" src="images/rs_school_js.svg" alt="RS School Logo"></a>  
+                <a class="year"> Created in 2021 </a>
+                <a href="https://github.com/MatTsyb"> <img class="github_mark" src="images/GitHub_Mark.png" alt="GitHub Logo"> </a>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
