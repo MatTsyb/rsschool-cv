@@ -46,6 +46,10 @@ body{
     width: 355px;
 }
 
+.container .aside .education_list{
+    line-height: 30px;
+}
+
 .container .aside .skills{
     width: 355px;
     margin-top: 67px;
